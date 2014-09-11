@@ -1,0 +1,29 @@
+
+   Pre-Release for CoolSnap HQ DIF Camera
+  
+   This Dif feature for this camera has just been added to the LabView toolkit. 
+   It will be in the next official release (June) of the SITK(tm) toolkit for LabView.
+
+   Since this is an Alpha copy, please back up your previous toolkit DLLs, r3x files and examples before unzipping.
+   Also back up your current SITK(tm) Libraries in your labview 6.1 user.lib dir and the two help files in your 
+   labview help directory.   
+
+   There are 
+	Help folder: these files should be copied into your labview 6.1 help directory
+	user libs folder: these should be copied into your labview 6.1 user.lib directory
+	labview 6.1 folder: these files should be copied into your LabView 6.1 direcotory.
+	ff folder: this is the examples and should be put into a separate folder (do not put these with the
+		other SITK(tm) examples.
+	new examples: There is also some new examples, again these should not be placed in the same directory
+		as the old examples since some vis have changed and will prevent the old examples from running.
+		The official release will have all the examples improved and cleaned up.
+
+	
+
+   There are two examples to run:
+	1.) ExFFAccumCirBufBin2x.vi tests the Accum Mode of the CoolSnap HQ DIF camera.
+	2.) ExPairedMode.vi tests the paired mode feature of the CoolSnap HQ DIF camera.
+
+   There are two new Vis in the camera library are CameraGetFFvars.vi and CmaeraSetFFvars.vi
+   These new VIs allow the user to set accum mode and the number of accums to be done on diff CCD.
+   They also allow paired mode to be set. 1 sets, 0 unsets.

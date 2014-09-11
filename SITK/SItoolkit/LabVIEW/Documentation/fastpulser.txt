@@ -1,0 +1,42 @@
+	FASTPULSER.TXT
+
+	When first entering LabVIEW, with the camera and pulser turned on, run the following VI's
+	1.) Go to the Open-Close Hardware folder
+	2.) Open and run ExOpenGlobalCam.vi.  Make sure the camera open turns green (this opens the toolkit and the camera).
+	3.) Open and run ExOpenGlobalPulser.vi.  Make sure the Pulser light turns green (this opens the pulser associated with the camera). Note: ExOpenGlobaCam must be run before running this VI.
+	As long as you don't turn off the camera or close the camera you don't need to do these again during the LabVIEW session.	
+
+
+	To run Internal pulser in focus mode (good for initial tests to make sure the system is running correctly).
+	1.) Go to the Pulser Systems folder
+	2.) Run ExSetupIntSuperSyncro.vi (this sets the pulser up for internal triggering)
+	3.) Run ExDataCollectPulserFocus.vi
+
+
+	To run Internal pulser in nframe/fast data collection mode (no display, store in RAM during collection, then store to file after collection).
+	1.) Go to the Pulser Systems folder
+	2.) Run ExSetupIntSuperSyncro.vi
+	3.) Run ExDataCollectPulserNFrame.vi
+	Note: this is fast data collection, the data is stored in RAM beneath the LabVIEW layer and only a 4 byte handle is passed around in LabVIEW.
+
+
+	To run External	pulser in focus mode
+	1.) Go to the Pulser Systems folder
+	2.) Run ExSetupExtSuperSyncro.vi (this sets the pulser up for external triggering).
+	3.) Run ExDataCollectPulserFocus.vi
+	Note: this is fast data collection, the data is stored in RAM below the LabVIEW layer and only a 4 byte handle is passed around in LabVIEW.
+
+
+	To run External pulser in nframe/fast data collection mode (no display, store in RAM during collection, then store to file after collection).
+	1.) Go to the Pulser Systems folder
+	2.) Run ExSetupIntSuperSyncro.vi
+	3.) Run ExDataCollectPulserNFrame.vi
+
+
+	Before leaving LabVIEW you should close the pulser and camera to clean up.
+	1.) Go to the Open-Close Hardware folder
+	2.) Select ExCloseGlobalPulser.vi and run it
+	3.) select ExCloseGlobalCam.vi and run it
+	4.) Now you can exit LabVIEW cleanly
+
+
