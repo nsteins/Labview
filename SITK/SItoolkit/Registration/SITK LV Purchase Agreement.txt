@@ -1,0 +1,45 @@
+SITK(tm) For LabVIEW(tm) Purchase Agreement 
+Revised: April 13, 2008
+
+Purchase of the Software Imaging ToolKit(tm) for LabVIEW(tm) (SITK(R) for LabVIEW(tm))
+product entitles the registered end user to software support and upgrades as outlined below.
+
+Term of contract:
+This purchase contract will commence upon the delivery of the SITK(tm) for LabVIEW(tm)
+product to the end user and will terminate one (1) calendar year after that date.
+
+Support:
+Support includes telephone and email support relating to the understanding and use of
+the SITK(tm) for LabVIEW(tm) software package.  It does not include instruction on the
+use of LabVIEW(tm) or any other software unless it is directly related to the SITK(tm)
+for LabVIEW(tm) software.  Telephone support is generally available during the hours of
+8:00AM to 6:00PM EST.  A reasonable attempt will be made to answer all email requests for
+support within 24 hours.  This response may not necessarily entail a solution but will at
+least be an acknowledgement of receipt of the request.  Actual solutions may take several
+days or more depending on the nature of the problem.
+
+Upgrades:
+Maintenance includes electronic copies of all software releases issued at no cost.
+This software will be distributed either via email or FTP site download.  If CDs are
+required, a fee of $25 (plus shipping) will be charged to cover the cost of the CD.
+
+Scope:
+The SITK(tm) for LabVIEW(tm) product is sold with a single user license as outlined in
+the licensing agreement shown during the installation.  In accordance with that agreement,
+this purchase agreement is also valid for a single user.
+
+Extension:
+An SITK(tm) for LabVIEW(tm) Support and Maintenance Contract may be purchased separately
+as an extension of this Purchase Agreement.  Please contact R Cubed Software
+Consultants, LLC for more information.
+
+
+R Cubed Software Consultants, LLC
+820 Bunker Hill Avenue
+Lawrenceville, New Jersey 08648
+Phone: (609) 577-2811 or (215) 514-5132
+Fax: (609) 392-7762
+EIN# 22-3807856
+
+LabVIEW is a trademark of National Instruments, Inc.,
+Software Imaging ToolKit and SITK are trademarks of R Cubed Software Consultants, LLC
