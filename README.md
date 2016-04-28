@@ -1,0 +1,2 @@
+# Labview
+Collection of labview vi's to control the variety of hardware devices necessary to operate my experiments in the Ouyang lab. Includes code necessary for confocal microscopy, magnetic and microwave control, qubit manipulation of NV centers in nanodiamond and fluorescence lifetime measurements as well as some programs to automate some of these measurements. In addition to being a bit unorganized, this code is going to be very hardware dependent and require you to obtain a lot of different labview drivers. 
