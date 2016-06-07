@@ -1,0 +1,199 @@
+; Kinesis USB Serial Port.inf
+; Copyright (c) 2015 Thorlabs Ltd.
+; Copyright © 2000-2015 Future Technology Devices International Limited
+;
+
+[Version]
+Signature="$Windows NT$"
+DriverPackageType=PlugAndPlay
+DriverPackageDisplayName=%DESC%
+Class=Ports
+ClassGUID={4d36e978-e325-11ce-bfc1-08002be10318}
+Provider=%FTDI%
+CatalogFile="Kinesis USB Serial Port.cat"
+DriverVer=12/18/2015,2.12.10.1
+
+[SourceDisksNames]
+1=%DriversDisk%,"Kinesis USB Serial Port.cat",,
+
+[SourceDisksFiles]
+ftser2k.sys=1,i386
+ftserui2.dll=1,i386
+ftcserco.dll = 1,i386
+
+[SourceDisksFiles.amd64]
+ftser2k.sys=1,amd64
+ftserui2.dll=1,amd64
+ftcserco.dll = 1,amd64
+
+[DestinationDirs]
+FtdiPort.NT.Copy=10,system32\drivers
+FtdiPort.NT.CopyUI=10,system32
+FtdiPort.NT.CopyCoInst=10,system32
+
+[ControlFlags]
+ExcludeFromSelect=*
+
+[Manufacturer]
+%FTDI%=FtdiHw,NTamd64
+
+[FtdiHw]
+%VID_26D1&PID_0001.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_0001
+%VID_26D1&PID_0002.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_0002
+%VID_26D1&PID_0003.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_0003
+%VID_26D1&PID_0004.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_0004
+%VID_26D1&PID_0005.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_0005
+%VID_26D1&PID_0006.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_0006
+%VID_26D1&PID_0007.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_0007
+%VID_26D1&PID_0008.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_0008
+%VID_26D1&PID_0009.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_0009
+%VID_26D1&PID_000A.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_000A
+%VID_26D1&PID_000B.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_000B
+%VID_26D1&PID_000C.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_000C
+%VID_26D1&PID_000D.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_000D
+%VID_26D1&PID_000E.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_000E
+%VID_26D1&PID_000F.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_000F
+%VID_26D1&PID_0010.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_0010
+%VID_26D1&PID_0011.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_0011
+%VID_26D1&PID_0012.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_0012
+%VID_26D1&PID_0013.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_0013
+%VID_26D1&PID_0014.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_0014
+%VID_26D1&PID_0015.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_0015
+%VID_26D1&PID_0016.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_0016
+%VID_26D1&PID_0017.DeviceDesc%=FtdiPort.NT,FTDIBUS\COMPORT&VID_26D1&PID_0017
+
+[FtdiHw.NTamd64]
+%VID_26D1&PID_0001.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_0001
+%VID_26D1&PID_0002.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_0002
+%VID_26D1&PID_0003.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_0003
+%VID_26D1&PID_0004.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_0004
+%VID_26D1&PID_0005.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_0005
+%VID_26D1&PID_0006.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_0006
+%VID_26D1&PID_0007.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_0007
+%VID_26D1&PID_0008.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_0008
+%VID_26D1&PID_0009.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_0009
+%VID_26D1&PID_000A.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_000A
+%VID_26D1&PID_000B.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_000B
+%VID_26D1&PID_000C.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_000C
+%VID_26D1&PID_000D.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_000D
+%VID_26D1&PID_000E.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_000E
+%VID_26D1&PID_000F.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_000F
+%VID_26D1&PID_0010.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_0010
+%VID_26D1&PID_0011.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_0011
+%VID_26D1&PID_0012.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_0012
+%VID_26D1&PID_0013.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_0013
+%VID_26D1&PID_0014.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_0014
+%VID_26D1&PID_0015.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_0015
+%VID_26D1&PID_0016.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_0016
+%VID_26D1&PID_0017.DeviceDesc%=FtdiPort.NTamd64,FTDIBUS\COMPORT&VID_26D1&PID_0017
+
+[FtdiPort.NT.AddService]
+DisplayName    = %SvcDesc%
+ServiceType    = 1 ; SERVICE_KERNEL_DRIVER
+StartType      = 3 ; SERVICE_DEMAND_START
+ErrorControl   = 1 ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\system32\drivers\ftser2k.sys
+LoadOrderGroup = Base
+
+
+; -------------- Serenum Driver install section
+[SerEnum_AddService]
+DisplayName    = %SerEnum.SvcDesc%
+ServiceType    = 1 ; SERVICE_KERNEL_DRIVER
+StartType      = 3 ; SERVICE_DEMAND_START
+ErrorControl   = 1 ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\serenum.sys
+LoadOrderGroup = PNP Filter
+
+[FtdiPort.NT.AddReg]
+HKR,,EnumPropPages32,,"ftserui2.dll,SerialPortPropPageProvider"
+
+[FtdiPort.NT.Copy]
+ftser2k.sys
+
+[FtdiPort.NT.CopyUI]
+ftserui2.dll
+
+[FtdiPort.NT.CopyCoInst]
+ftcserco.dll
+
+[FtdiPort.NT]
+CopyFiles=FtdiPort.NT.Copy,FtdiPort.NT.CopyUI
+AddReg=FtdiPort.NT.AddReg
+
+[FtdiPort.NTamd64]
+CopyFiles=FtdiPort.NT.Copy,FtdiPort.NT.CopyUI
+AddReg=FtdiPort.NT.AddReg
+
+[FtdiPort.NT.HW]
+AddReg=FtdiPort.NT.HW.AddReg
+
+[FtdiPort.NTamd64.HW]
+AddReg=FtdiPort.NT.HW.AddReg
+
+
+[FtdiPort.NT.Services]
+AddService = FTSER2K, 0x00000002, FtdiPort.NT.AddService
+AddService = Serenum,,SerEnum_AddService
+DelService = FTSERIAL
+
+[FtdiPort.NTamd64.Services]
+AddService = FTSER2K, 0x00000002, FtdiPort.NT.AddService
+AddService = Serenum,,SerEnum_AddService
+DelService = FTSERIAL
+
+
+[FtdiPort.NT.HW.AddReg]
+HKR,,"UpperFilters",0x00010000,"serenum"
+HKR,,"ConfigData",1,11,00,3F,3F,10,27,00,00,88,13,00,00,C4,09,00,00,E2,04,00,00,71,02,00,00,38,41,00,00,9C,80,00,00,4E,C0,00,00,34,00,00,00,1A,00,00,00,0D,00,00,00,06,40,00,00,03,80,00,00,00,00,00,00,D0,80,00,00
+HKR,,"MinReadTimeout",0x00010001,0
+HKR,,"MinWriteTimeout",0x00010001,0
+HKR,,"LatencyTimer",0x00010001,16
+
+
+[FtdiPort.NT.CoInstallers]
+AddReg=FtdiPort.NT.CoInstallers.AddReg
+CopyFiles=FtdiPort.NT.CopyCoInst
+
+[FtdiPort.NTamd64.CoInstallers]
+AddReg=FtdiPort.NT.CoInstallers.AddReg
+CopyFiles=FtdiPort.NT.CopyCoInst
+
+[FtdiPort.NT.CoInstallers.AddReg]
+HKR,,CoInstallers32,0x00010000,"ftcserco.Dll,FTCSERCoInstaller"
+
+
+;---------------------------------------------------------------;
+
+[Strings]
+FTDI="Thorlabs"
+DESC="Kinesis USB Driver Package"
+DriversDisk="Kinesis USB Drivers"
+PortsClassName = "Ports (COM & LPT)"
+VID_26D1&PID_0001.DeviceDesc="Kinesis USB Device Serial Port"
+VID_26D1&PID_0002.DeviceDesc="Kinesis K-Cube Brushless Motor Controller Serial Port"
+VID_26D1&PID_0003.DeviceDesc="Kinesis K-Cube Brushed Motor Controller Serial Port"
+VID_26D1&PID_0004.DeviceDesc="Kinesis K-Cube Piezo Controller Serial Port"
+VID_26D1&PID_0005.DeviceDesc="Kinesis K-Cube Stepper Motor Controller"
+VID_26D1&PID_0006.DeviceDesc="Kinesis K-Cube Solenoid Controller Serial Port"
+VID_26D1&PID_0007.DeviceDesc="Kinesis K-Cube Laser Diode Controller Serial Port"
+VID_26D1&PID_0008.DeviceDesc="Kinesis K-Cube Laser Source Controller Serial Port"
+VID_26D1&PID_0009.DeviceDesc="Kinesis K-Cube NanoTrak Controller Serial Port"
+VID_26D1&PID_000A.DeviceDesc="Kinesis K-Cube PSD Auto Aligner Serial Port"
+VID_26D1&PID_000B.DeviceDesc="Kinesis K-Cube TEC Controller Serial Port"
+VID_26D1&PID_000C.DeviceDesc="Kinesis K-Cube Piezo Motor Controller Serial Port"
+VID_26D1&PID_000D.DeviceDesc="Kinesis Console Serial Port"
+VID_26D1&PID_000E.DeviceDesc="Kinesis USB Device Serial Port"
+VID_26D1&PID_000F.DeviceDesc="Kinesis USB Device Serial Port"
+VID_26D1&PID_0010.DeviceDesc="Kinesis USB Device Serial Port"
+VID_26D1&PID_0011.DeviceDesc="Kinesis USB Device Serial Port"
+VID_26D1&PID_0012.DeviceDesc="Kinesis USB Device Serial Port"
+VID_26D1&PID_0013.DeviceDesc="Kinesis USB Device Serial Port"
+VID_26D1&PID_0014.DeviceDesc="Kinesis USB Device Serial Port"
+VID_26D1&PID_0015.DeviceDesc="Kinesis USB Device Serial Port"
+VID_26D1&PID_0016.DeviceDesc="Kinesis USB Device Serial Port"
+VID_26D1&PID_0017.DeviceDesc="Kinesis USB Device Serial Port"
+SvcDesc="USB Serial Port Driver"
+SerEnum.SvcDesc="Serenum Filter Driver"
+
+

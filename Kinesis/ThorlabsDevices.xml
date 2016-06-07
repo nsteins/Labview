@@ -1,0 +1,500 @@
+﻿<?xml version="1.0"?>
+<SettingsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Devices>
+    <DeviceType ID="25" Name="2 Chan">
+      <DeviceSettings>
+        <DeviceSettingsType Name="BMS NanoStep Linear 50mm" />
+        <DeviceSettingsType Name="BMS NanoStep Linear 100mm" />
+        <DeviceSettingsType Name="BMS NanoStep Linear 150mm" />
+        <DeviceSettingsType Name="BMS 17DRV013 25mm" />
+        <DeviceSettingsType Name="BMS 17DRV014 50mm" />
+        <DeviceSettingsType Name="BMS 17DRV113 25mm" />
+        <DeviceSettingsType Name="BMS 17DRV114 50mm" />
+        <DeviceSettingsType Name="BMS NanoRotator" />
+        <DeviceSettingsType Name="BMS 17DRV013 Enc LNR 25mm" />
+        <DeviceSettingsType Name="BMS 17DRV014 Enc LNR 50mm" />
+        <DeviceSettingsType Name="BMS 17DRV113 Enc LNR 25mm" />
+        <DeviceSettingsType Name="BMS 17DRV114 Enc LNR 50mm" />
+        <DeviceSettingsType Name="DRV001 Enc LNR 8mm" />
+      </DeviceSettings>
+    </DeviceType>
+
+    <DeviceType ID="35" Name="1 Chan">
+      <DeviceSettings>
+        <DeviceSettingsType Name="BMS NanoStep Linear 50mm" />
+        <DeviceSettingsType Name="BMS NanoStep Linear 100mm" />
+        <DeviceSettingsType Name="BMS NanoStep Linear 150mm" />
+        <DeviceSettingsType Name="BMS 17DRV013 25mm" />
+        <DeviceSettingsType Name="BMS 17DRV014 50mm" />
+        <DeviceSettingsType Name="BMS 17DRV113 25mm" />
+        <DeviceSettingsType Name="BMS 17DRV114 50mm" />
+        <DeviceSettingsType Name="BMS NanoRotator" />
+        <DeviceSettingsType Name="BMS 17DRV013 Enc LNR 25mm" />
+        <DeviceSettingsType Name="BMS 17DRV014 Enc LNR 50mm" />
+        <DeviceSettingsType Name="BMS 17DRV113 Enc LNR 25mm" />
+        <DeviceSettingsType Name="BMS 17DRV114 Enc LNR 50mm" />
+        <DeviceSettingsType Name="DRV001 Enc LNR 8mm" />
+      </DeviceSettings>
+    </DeviceType>
+
+    <DeviceType ID="40" Name="BSC101">
+      <DeviceSettings>
+        <DeviceSettingsType Name="APT600R X Axis" />
+        <DeviceSettingsType Name="APT600R Y Axis" />
+        <DeviceSettingsType Name="APT600R Z Axis" />
+        <DeviceSettingsType Name="APT600R Pitch Axis" />
+        <DeviceSettingsType Name="APT600R Roll Axis" />
+        <DeviceSettingsType Name="APT600R Yaw Axis" />
+        <DeviceSettingsType Name="APT600L X Axis" />
+        <DeviceSettingsType Name="APT600L Y Axis" />
+        <DeviceSettingsType Name="APT600L Z Axis" />
+        <DeviceSettingsType Name="APT600L Pitch Axis" />
+        <DeviceSettingsType Name="APT600L Roll Axis" />
+        <DeviceSettingsType Name="APT600L Yaw Axis" />
+        <DeviceSettingsType Name="NanoMax 300 X Axis" />
+        <DeviceSettingsType Name="NanoMax 300 Y Axis" />
+        <DeviceSettingsType Name="NanoMax 300 Z Axis" />
+        <DeviceSettingsType Name="BMS NanoMax 300 X Axis" />
+        <DeviceSettingsType Name="BMS NanoMax 300 Y Axis" />
+        <DeviceSettingsType Name="BMS NanoMax 300 Z Axis" />
+        <DeviceSettingsType Name="NanoStep Linear 50mm" />
+        <DeviceSettingsType Name="NanoStep Linear 100mm" />
+        <DeviceSettingsType Name="NanoStep Linear 150mm" />
+        <DeviceSettingsType Name="NanoMax 600 X Axis (17DRV001)" />
+        <DeviceSettingsType Name="NanoMax 600 Y Axis (17DRV001)" />
+        <DeviceSettingsType Name="NanoMax 600 Z Axis (17DRV001)" />
+        <DeviceSettingsType Name="NanoMax 600 Pitch Axis (17DRV001)" />
+        <DeviceSettingsType Name="NanoMax 600 Roll Axis (17DRV001)" />
+        <DeviceSettingsType Name="NanoMax 600 Yaw Axis (17DRV001)" />
+        <DeviceSettingsType Name="17DRV013 25mm" />
+        <DeviceSettingsType Name="17DRV014 50mm" />
+        <DeviceSettingsType Name="17DRV113 25mm" />
+        <DeviceSettingsType Name="17DRV114 50mm" />
+        <DeviceSettingsType Name="NanoRotator" />
+        <DeviceSettingsType Name="17DRV013 Enc LNR 25mm" />
+        <DeviceSettingsType Name="17DRV014 Enc LNR 50mm" />
+        <DeviceSettingsType Name="17DRV113 Enc LNR 25mm" />
+        <DeviceSettingsType Name="17DRV114 Enc LNR 50mm" />
+        <DeviceSettingsType Name="07EAS503 13mm" />
+        <DeviceSettingsType Name="07EAS504 25mm" />
+        <DeviceSettingsType Name="NRT150E Enc Stage 150mm" />
+        <DeviceSettingsType Name="NRT100E Enc Stage 100mm" />
+        <DeviceSettingsType Name="NRT150 Enc Stage 150mm" />
+        <DeviceSettingsType Name="NRT100 Enc Stage 100mm" />
+        <DeviceSettingsType Name="MAX201 Y" />
+        <DeviceSettingsType Name="MAX201 X" />
+        <DeviceSettingsType Name="MAX200 Y" />
+        <DeviceSettingsType Name="MAX200 X" />
+        <DeviceSettingsType Name="MAX202 Y" />
+        <DeviceSettingsType Name="MAX202 X" />
+        <DeviceSettingsType Name="MAX203 Y" />
+        <DeviceSettingsType Name="MAX203 X" />
+        <DeviceSettingsType Name="BSC FW103 Filter Wheel" />
+        <DeviceSettingsType Name="BSC FW104 Dichroic Filter Wheel" />
+        <DeviceSettingsType Name="HS NanoMax 300 X Axis" />
+        <DeviceSettingsType Name="HS NanoMax 300 Y Axis" />
+        <DeviceSettingsType Name="HS NanoMax 300 Z Axis" />
+        <DeviceSettingsType Name="HS NanoMax 600 X Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS NanoMax 600 Y Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS NanoMax 600 Z Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS NanoMax 600 Pitch Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS NanoMax 600 Roll Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS NanoMax 600 Yaw Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS 17DRV013 25mm" />
+        <DeviceSettingsType Name="HS 17DRV014 50mm" />
+        <DeviceSettingsType Name="HS NanoRotator" />
+        <DeviceSettingsType Name="HS 17DRV013 Enc LNR 25mm" />
+        <DeviceSettingsType Name="HS 17DRV014 Enc LNR 50mm" />
+        <DeviceSettingsType Name="HS NRT150 Enc Stage 150mm" />
+        <DeviceSettingsType Name="HS NRT100 Enc Stage 100mm" />
+        <DeviceSettingsType Name="HS BSC FW103 Filter Wheel" />
+        <DeviceSettingsType Name="DRV001 Enc LNR 8mm" />
+      </DeviceSettings>
+    </DeviceType>
+
+    <DeviceType ID="50" Name="MST601">
+      <DeviceSettings>
+        <DeviceSettingsType Name="APT600R X Axis" />
+        <DeviceSettingsType Name="APT600R Y Axis" />
+        <DeviceSettingsType Name="APT600R Z Axis" />
+        <DeviceSettingsType Name="APT600R Pitch Axis" />
+        <DeviceSettingsType Name="APT600R Roll Axis" />
+        <DeviceSettingsType Name="APT600R Yaw Axis" />
+        <DeviceSettingsType Name="APT600L X Axis" />
+        <DeviceSettingsType Name="APT600L Y Axis" />
+        <DeviceSettingsType Name="APT600L Z Axis" />
+        <DeviceSettingsType Name="APT600L Pitch Axis" />
+        <DeviceSettingsType Name="APT600L Roll Axis" />
+        <DeviceSettingsType Name="APT600L Yaw Axis" />
+        <DeviceSettingsType Name="NanoMax 300 X Axis" />
+        <DeviceSettingsType Name="NanoMax 300 Y Axis" />
+        <DeviceSettingsType Name="NanoMax 300 Z Axis" />
+        <DeviceSettingsType Name="BMS NanoMax 300 X Axis" />
+        <DeviceSettingsType Name="BMS NanoMax 300 Y Axis" />
+        <DeviceSettingsType Name="BMS NanoMax 300 Z Axis" />
+        <DeviceSettingsType Name="NanoStep Linear 50mm" />
+        <DeviceSettingsType Name="NanoStep Linear 100mm" />
+        <DeviceSettingsType Name="NanoStep Linear 150mm" />
+        <DeviceSettingsType Name="NanoMax 600 X Axis (17DRV001)" />
+        <DeviceSettingsType Name="NanoMax 600 Y Axis (17DRV001)" />
+        <DeviceSettingsType Name="NanoMax 600 Z Axis (17DRV001)" />
+        <DeviceSettingsType Name="NanoMax 600 Pitch Axis (17DRV001)" />
+        <DeviceSettingsType Name="NanoMax 600 Roll Axis (17DRV001)" />
+        <DeviceSettingsType Name="NanoMax 600 Yaw Axis (17DRV001)" />
+        <DeviceSettingsType Name="17DRV013 25mm" />
+        <DeviceSettingsType Name="17DRV014 50mm" />
+        <DeviceSettingsType Name="17DRV113 25mm" />
+        <DeviceSettingsType Name="17DRV114 50mm" />
+        <DeviceSettingsType Name="NanoRotator" />
+        <DeviceSettingsType Name="17DRV013 Enc LNR 25mm" />
+        <DeviceSettingsType Name="17DRV014 Enc LNR 50mm" />
+        <DeviceSettingsType Name="17DRV113 Enc LNR 25mm" />
+        <DeviceSettingsType Name="17DRV114 Enc LNR 50mm" />
+        <DeviceSettingsType Name="07EAS503 13mm" />
+        <DeviceSettingsType Name="07EAS504 25mm" />
+        <DeviceSettingsType Name="NRT150E Enc Stage 150mm" />
+        <DeviceSettingsType Name="NRT100E Enc Stage 100mm" />
+        <DeviceSettingsType Name="NRT150 Enc Stage 150mm" />
+        <DeviceSettingsType Name="NRT100 Enc Stage 100mm" />
+        <DeviceSettingsType Name="MAX201 Y" />
+        <DeviceSettingsType Name="MAX201 X" />
+        <DeviceSettingsType Name="MAX200 Y" />
+        <DeviceSettingsType Name="MAX200 X" />
+        <DeviceSettingsType Name="MAX202 Y" />
+        <DeviceSettingsType Name="MAX202 X" />
+        <DeviceSettingsType Name="MAX203 Y" />
+        <DeviceSettingsType Name="MAX203 X" />
+        <DeviceSettingsType Name="BSC FW103 Filter Wheel" />
+        <DeviceSettingsType Name="BSC FW104 Dichroic Filter Wheel" />
+        <DeviceSettingsType Name="HS NanoMax 300 X Axis" />
+        <DeviceSettingsType Name="HS NanoMax 300 Y Axis" />
+        <DeviceSettingsType Name="HS NanoMax 300 Z Axis" />
+        <DeviceSettingsType Name="HS NanoMax 600 X Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS NanoMax 600 Y Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS NanoMax 600 Z Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS NanoMax 600 Pitch Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS NanoMax 600 Roll Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS NanoMax 600 Yaw Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS 17DRV013 25mm" />
+        <DeviceSettingsType Name="HS 17DRV014 50mm" />
+        <DeviceSettingsType Name="HS NanoRotator" />
+        <DeviceSettingsType Name="HS 17DRV013 Enc LNR 25mm" />
+        <DeviceSettingsType Name="HS 17DRV014 Enc LNR 50mm" />
+        <DeviceSettingsType Name="HS NRT150 Enc Stage 150mm" />
+        <DeviceSettingsType Name="HS NRT100 Enc Stage 100mm" />
+        <DeviceSettingsType Name="HS BSC FW103 Filter Wheel" />
+        <DeviceSettingsType Name="DRV001 Enc LNR 8mm" />
+      </DeviceSettings>
+    </DeviceType>
+
+    <DeviceType ID="70" Name="BSC10x">
+      <DeviceSettings>
+        <DeviceSettingsType Name="APT600R X Axis" />
+        <DeviceSettingsType Name="APT600R Y Axis" />
+        <DeviceSettingsType Name="APT600R Z Axis" />
+        <DeviceSettingsType Name="APT600R Pitch Axis" />
+        <DeviceSettingsType Name="APT600R Roll Axis" />
+        <DeviceSettingsType Name="APT600R Yaw Axis" />
+        <DeviceSettingsType Name="APT600L X Axis" />
+        <DeviceSettingsType Name="APT600L Y Axis" />
+        <DeviceSettingsType Name="APT600L Z Axis" />
+        <DeviceSettingsType Name="APT600L Pitch Axis" />
+        <DeviceSettingsType Name="APT600L Roll Axis" />
+        <DeviceSettingsType Name="APT600L Yaw Axis" />
+        <DeviceSettingsType Name="NanoMax 300 X Axis" />
+        <DeviceSettingsType Name="NanoMax 300 Y Axis" />
+        <DeviceSettingsType Name="NanoMax 300 Z Axis" />
+        <DeviceSettingsType Name="BMS NanoMax 300 X Axis" />
+        <DeviceSettingsType Name="BMS NanoMax 300 Y Axis" />
+        <DeviceSettingsType Name="BMS NanoMax 300 Z Axis" />
+        <DeviceSettingsType Name="NanoStep Linear 50mm" />
+        <DeviceSettingsType Name="NanoStep Linear 100mm" />
+        <DeviceSettingsType Name="NanoStep Linear 150mm" />
+        <DeviceSettingsType Name="NanoMax 600 X Axis (17DRV001)" />
+        <DeviceSettingsType Name="NanoMax 600 Y Axis (17DRV001)" />
+        <DeviceSettingsType Name="NanoMax 600 Z Axis (17DRV001)" />
+        <DeviceSettingsType Name="NanoMax 600 Pitch Axis (17DRV001)" />
+        <DeviceSettingsType Name="NanoMax 600 Roll Axis (17DRV001)" />
+        <DeviceSettingsType Name="NanoMax 600 Yaw Axis (17DRV001)" />
+        <DeviceSettingsType Name="17DRV013 25mm" />
+        <DeviceSettingsType Name="17DRV014 50mm" />
+        <DeviceSettingsType Name="17DRV113 25mm" />
+        <DeviceSettingsType Name="17DRV114 50mm" />
+        <DeviceSettingsType Name="NanoRotator" />
+        <DeviceSettingsType Name="17DRV013 Enc LNR 25mm" />
+        <DeviceSettingsType Name="17DRV014 Enc LNR 50mm" />
+        <DeviceSettingsType Name="17DRV113 Enc LNR 25mm" />
+        <DeviceSettingsType Name="17DRV114 Enc LNR 50mm" />
+        <DeviceSettingsType Name="07EAS503 13mm" />
+        <DeviceSettingsType Name="07EAS504 25mm" />
+        <DeviceSettingsType Name="NRT150E Enc Stage 150mm" />
+        <DeviceSettingsType Name="NRT100E Enc Stage 100mm" />
+        <DeviceSettingsType Name="NRT150 Enc Stage 150mm" />
+        <DeviceSettingsType Name="NRT100 Enc Stage 100mm" />
+        <DeviceSettingsType Name="MAX201 Y" />
+        <DeviceSettingsType Name="MAX201 X" />
+        <DeviceSettingsType Name="MAX200 Y" />
+        <DeviceSettingsType Name="MAX200 X" />
+        <DeviceSettingsType Name="MAX202 Y" />
+        <DeviceSettingsType Name="MAX202 X" />
+        <DeviceSettingsType Name="MAX203 Y" />
+        <DeviceSettingsType Name="MAX203 X" />
+        <DeviceSettingsType Name="DRV414" />
+        <DeviceSettingsType Name="BSC FW103 Filter Wheel" />
+        <DeviceSettingsType Name="BSC FW104 Dichroic Filter Wheel" />
+        <DeviceSettingsType Name="HS NanoMax 300 X Axis" />
+        <DeviceSettingsType Name="HS NanoMax 300 Y Axis" />
+        <DeviceSettingsType Name="HS NanoMax 300 Z Axis" />
+        <DeviceSettingsType Name="HS NanoMax 600 X Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS NanoMax 600 Y Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS NanoMax 600 Z Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS NanoMax 600 Pitch Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS NanoMax 600 Roll Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS NanoMax 600 Yaw Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS 17DRV013 25mm" />
+        <DeviceSettingsType Name="HS 17DRV014 50mm" />
+        <DeviceSettingsType Name="HS NanoRotator" />
+        <DeviceSettingsType Name="HS 17DRV013 Enc LNR 25mm" />
+        <DeviceSettingsType Name="HS 17DRV014 Enc LNR 50mm" />
+        <DeviceSettingsType Name="HS NRT150 Enc Stage 150mm" />
+        <DeviceSettingsType Name="HS NRT100 Enc Stage 100mm" />
+        <DeviceSettingsType Name="HS BSC FW103 Filter Wheel" />
+        <DeviceSettingsType Name="DRV001 Enc LNR 8mm" />
+      </DeviceSettings>
+    </DeviceType>
+
+    <DeviceType ID="90" Name="BSC10x">
+      <DeviceSettings>
+        <DeviceSettingsType Name="APT600R X Axis" />
+        <DeviceSettingsType Name="APT600R Y Axis" />
+        <DeviceSettingsType Name="APT600R Z Axis" />
+        <DeviceSettingsType Name="APT600R Pitch Axis" />
+        <DeviceSettingsType Name="APT600R Roll Axis" />
+        <DeviceSettingsType Name="APT600R Yaw Axis" />
+        <DeviceSettingsType Name="APT600L X Axis" />
+        <DeviceSettingsType Name="APT600L Y Axis" />
+        <DeviceSettingsType Name="APT600L Z Axis" />
+        <DeviceSettingsType Name="APT600L Pitch Axis" />
+        <DeviceSettingsType Name="APT600L Roll Axis" />
+        <DeviceSettingsType Name="APT600L Yaw Axis" />
+        <DeviceSettingsType Name="NanoMax 300 X Axis" />
+        <DeviceSettingsType Name="NanoMax 300 Y Axis" />
+        <DeviceSettingsType Name="NanoMax 300 Z Axis" />
+        <DeviceSettingsType Name="BMS NanoMax 300 X Axis" />
+        <DeviceSettingsType Name="BMS NanoMax 300 Y Axis" />
+        <DeviceSettingsType Name="BMS NanoMax 300 Z Axis" />
+        <DeviceSettingsType Name="NanoStep Linear 50mm" />
+        <DeviceSettingsType Name="NanoStep Linear 100mm" />
+        <DeviceSettingsType Name="NanoStep Linear 150mm" />
+        <DeviceSettingsType Name="NanoMax 600 X Axis (17DRV001)" />
+        <DeviceSettingsType Name="NanoMax 600 Y Axis (17DRV001)" />
+        <DeviceSettingsType Name="NanoMax 600 Z Axis (17DRV001)" />
+        <DeviceSettingsType Name="NanoMax 600 Pitch Axis (17DRV001)" />
+        <DeviceSettingsType Name="NanoMax 600 Roll Axis (17DRV001)" />
+        <DeviceSettingsType Name="NanoMax 600 Yaw Axis (17DRV001)" />
+        <DeviceSettingsType Name="17DRV013 25mm" />
+        <DeviceSettingsType Name="17DRV014 50mm" />
+        <DeviceSettingsType Name="17DRV113 25mm" />
+        <DeviceSettingsType Name="17DRV114 50mm" />
+        <DeviceSettingsType Name="NanoRotator" />
+        <DeviceSettingsType Name="17DRV013 Enc LNR 25mm" />
+        <DeviceSettingsType Name="17DRV014 Enc LNR 50mm" />
+        <DeviceSettingsType Name="17DRV113 Enc LNR 25mm" />
+        <DeviceSettingsType Name="17DRV114 Enc LNR 50mm" />
+        <DeviceSettingsType Name="07EAS503 13mm" />
+        <DeviceSettingsType Name="07EAS504 25mm" />
+        <DeviceSettingsType Name="NRT150E Enc Stage 150mm" />
+        <DeviceSettingsType Name="NRT100E Enc Stage 100mm" />
+        <DeviceSettingsType Name="NRT150 Enc Stage 150mm" />
+        <DeviceSettingsType Name="NRT100 Enc Stage 100mm" />
+        <DeviceSettingsType Name="MAX201 Y" />
+        <DeviceSettingsType Name="MAX201 X" />
+        <DeviceSettingsType Name="MAX200 Y" />
+        <DeviceSettingsType Name="MAX200 X" />
+        <DeviceSettingsType Name="MAX202 Y" />
+        <DeviceSettingsType Name="MAX202 X" />
+        <DeviceSettingsType Name="MAX203 Y" />
+        <DeviceSettingsType Name="MAX203 X" />
+        <DeviceSettingsType Name="BSC FW103 Filter Wheel" />
+        <DeviceSettingsType Name="BSC FW104 Dichroic Filter Wheel" />
+        <DeviceSettingsType Name="HS NanoMax 300 X Axis" />
+        <DeviceSettingsType Name="HS NanoMax 300 Y Axis" />
+        <DeviceSettingsType Name="HS NanoMax 300 Z Axis" />
+        <DeviceSettingsType Name="HS NanoMax 600 X Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS NanoMax 600 Y Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS NanoMax 600 Z Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS NanoMax 600 Pitch Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS NanoMax 600 Roll Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS NanoMax 600 Yaw Axis (17DRV001)" />
+        <DeviceSettingsType Name="HS 17DRV013 25mm" />
+        <DeviceSettingsType Name="HS 17DRV014 50mm" />
+        <DeviceSettingsType Name="HS NanoRotator" />
+        <DeviceSettingsType Name="HS 17DRV013 Enc LNR 25mm" />
+        <DeviceSettingsType Name="HS 17DRV014 Enc LNR 50mm" />
+        <DeviceSettingsType Name="HS NRT150 Enc Stage 150mm" />
+        <DeviceSettingsType Name="HS NRT100 Enc Stage 100mm" />
+        <DeviceSettingsType Name="HS BSC FW103 Filter Wheel" />
+        <DeviceSettingsType Name="DRV001 Enc LNR 8mm" />
+      </DeviceSettings>
+    </DeviceType>
+
+    <DeviceType ID="26" Name="KST101">
+      <DeviceSettings>
+        <DeviceSettingsType Name="TST FW103 Filter Wheel" />
+        <DeviceSettingsType Name="TST FW104 Dichroic Filter Wheel" />
+        <DeviceSettingsType Name="HS ZST6(B)" />
+        <DeviceSettingsType Name="HS ZST13(B)" />
+        <DeviceSettingsType Name="HS ZST25(B)" />
+        <DeviceSettingsType Name="HS ZST206(B)" />
+        <DeviceSettingsType Name="HS ZST213(B)" />
+        <DeviceSettingsType Name="HS ZST225(B)" />
+        <DeviceSettingsType Name="HS ZFS6(B)" />
+        <DeviceSettingsType Name="HS ZFS13(B)" />
+        <DeviceSettingsType Name="HS ZFS25(B)" />
+        <DeviceSettingsType Name="HS TST 17DRV014 50mm" />
+        <DeviceSettingsType Name="HS TST 17DRV013 25mm" />
+        <DeviceSettingsType Name="HS TST MVS025" />
+        <DeviceSettingsType Name="HS TST NanoRotator" />
+      </DeviceSettings>
+    </DeviceType>
+
+    <DeviceType ID="80" Name="TST001">
+      <DeviceSettings>
+        <DeviceSettingsType Name="ZST6(B)" />
+        <DeviceSettingsType Name="ZST13(B)" />
+        <DeviceSettingsType Name="ZST25(B)" />
+        <DeviceSettingsType Name="TST FW103 Filter Wheel" />
+        <DeviceSettingsType Name="TST FW104 Dichroic Filter Wheel" />
+        <DeviceSettingsType Name="ZST DT-34" />
+        <DeviceSettingsType Name="ZST206(B)" />
+        <DeviceSettingsType Name="ZST213(B)" />
+        <DeviceSettingsType Name="ZST225(B)" />
+        <DeviceSettingsType Name="ZFS6(B)" />
+        <DeviceSettingsType Name="ZFS13(B)" />
+        <DeviceSettingsType Name="ZFS25(B)" />
+        <DeviceSettingsType Name="HS ZST6(B)" />
+        <DeviceSettingsType Name="HS ZST13(B)" />
+        <DeviceSettingsType Name="HS ZST25(B)" />
+        <DeviceSettingsType Name="HS ZST206(B)" />
+        <DeviceSettingsType Name="HS ZST213(B)" />
+        <DeviceSettingsType Name="HS ZST225(B)" />
+        <DeviceSettingsType Name="HS ZFS6(B)" />
+        <DeviceSettingsType Name="HS ZFS13(B)" />
+        <DeviceSettingsType Name="HS ZFS25(B)" />
+        <DeviceSettingsType Name="TST 17DRV014 50mm" />
+        <DeviceSettingsType Name="TST 17DRV013 25mm" />
+        <DeviceSettingsType Name="HS TST 17DRV014 50mm" />
+        <DeviceSettingsType Name="HS TST 17DRV013 25mm" />
+        <DeviceSettingsType Name="HS TST MVS025" />
+        <DeviceSettingsType Name="HS TST NanoRotator" />
+      </DeviceSettings>
+    </DeviceType>
+
+    <DeviceType ID="83" Name="TDC001">
+      <DeviceSettings>
+        <DeviceSettingsType Name="GNL10-Z6" />
+        <DeviceSettingsType Name="GNL18-Z6" />
+        <DeviceSettingsType Name="MTS25" />
+        <DeviceSettingsType Name="MTS50" />
+        <DeviceSettingsType Name="Z806" />
+        <DeviceSettingsType Name="Z812" />
+        <DeviceSettingsType Name="GNL10-Z8" />
+        <DeviceSettingsType Name="GNL18-Z8" />
+        <DeviceSettingsType Name="PRM1-Z8" />
+        <DeviceSettingsType Name="PRM1-Z7" />
+        <DeviceSettingsType Name="MTS25-Z8" />
+        <DeviceSettingsType Name="MTS50-Z8" />
+        <DeviceSettingsType Name="Z806V" />
+        <DeviceSettingsType Name="Z812V" />
+        <DeviceSettingsType Name="Z606(B)" />
+        <DeviceSettingsType Name="Z612(B)" />
+        <DeviceSettingsType Name="Z625(B)" />
+        <DeviceSettingsType Name="Z625(B)64:1" />
+        <DeviceSettingsType Name="ZM1" />
+        <DeviceSettingsType Name="CR1-Z6" />
+        <DeviceSettingsType Name="T25X" />
+        <DeviceSettingsType Name="MGS80" />
+        <DeviceSettingsType Name="MGS60" />
+        <DeviceSettingsType Name="Z825" />
+        <DeviceSettingsType Name="MT1-Z8" />
+        <DeviceSettingsType Name="Z825V" />
+        <DeviceSettingsType Name="MVS005MZ" />
+        <DeviceSettingsType Name="CR1-Z7" />
+        <DeviceSettingsType Name="PY004Z8 Yaw" />
+        <DeviceSettingsType Name="PY004Z8 Pitch" />
+      </DeviceSettings>
+    </DeviceType>
+
+    <DeviceType ID="27" Name="KDC101">
+      <DeviceSettings>
+        <DeviceSettingsType Name="GNL10-Z6" />
+        <DeviceSettingsType Name="GNL18-Z6" />
+        <DeviceSettingsType Name="MTS25" />
+        <DeviceSettingsType Name="MTS50" />
+        <DeviceSettingsType Name="Z806" />
+        <DeviceSettingsType Name="Z812" />
+        <DeviceSettingsType Name="GNL10-Z8" />
+        <DeviceSettingsType Name="GNL18-Z8" />
+        <DeviceSettingsType Name="PRM1-Z8" />
+        <DeviceSettingsType Name="PRM1-Z7" />
+        <DeviceSettingsType Name="MTS25-Z8" />
+        <DeviceSettingsType Name="MTS50-Z8" />
+        <DeviceSettingsType Name="Z806V" />
+        <DeviceSettingsType Name="Z812V" />
+        <DeviceSettingsType Name="Z606(B)" />
+        <DeviceSettingsType Name="Z612(B)" />
+        <DeviceSettingsType Name="Z625(B)" />
+        <DeviceSettingsType Name="Z625(B)64:1" />
+        <DeviceSettingsType Name="ZM1" />
+        <DeviceSettingsType Name="CR1-Z6" />
+        <DeviceSettingsType Name="T25X" />
+        <DeviceSettingsType Name="MGS80" />
+        <DeviceSettingsType Name="MGS60" />
+        <DeviceSettingsType Name="Z825" />
+        <DeviceSettingsType Name="MT1-Z8" />
+        <DeviceSettingsType Name="Z825V" />
+        <DeviceSettingsType Name="MVS005MZ" />
+        <DeviceSettingsType Name="CR1-Z7" />
+        <DeviceSettingsType Name="PY004Z8 Yaw" />
+        <DeviceSettingsType Name="PY004Z8 Pitch" />
+      </DeviceSettings>
+    </DeviceType>
+
+    <DeviceType ID="43" Name="BDC101">
+      <DeviceSettings>
+        <DeviceSettingsType Name="DRV414" />
+      </DeviceSettings>
+    </DeviceType>
+
+    <DeviceType ID="93" Name="BDC10x">
+      <DeviceSettings>
+        <DeviceSettingsType Name="DRV414" />
+      </DeviceSettings>
+    </DeviceType>
+
+    <DeviceType ID="45" Name="LTS(Integrated)">
+      <DeviceSettings>
+        <DeviceSettingsType Name="LTS150 150mm Stage" />
+        <DeviceSettingsType Name="LTS300 300mm Stage" />
+        <DeviceSettingsType Name="HS LTS150 150mm Stage" />
+        <DeviceSettingsType Name="HS LTS300 300mm Stage" />
+      </DeviceSettings>
+    </DeviceType>
+
+    <DeviceType ID="46" Name="Labjack">
+      <DeviceSettings>
+        <DeviceSettingsType Name="L490MZ Labjack" />
+      </DeviceSettings>
+    </DeviceType>
+    <DeviceType ID="49" Name="Labjack">
+      <DeviceSettings>
+        <DeviceSettingsType Name="MLJ050 Labjack" />
+      </DeviceSettings>
+    </DeviceType>
+    <DeviceType ID="55" Name="Cage Rotator">
+      <DeviceSettings>
+        <DeviceSettingsType Name="K10CR1 Rotation Stage" />
+      </DeviceSettings>
+    </DeviceType>
+  </Devices>
+</SettingsCollection>
